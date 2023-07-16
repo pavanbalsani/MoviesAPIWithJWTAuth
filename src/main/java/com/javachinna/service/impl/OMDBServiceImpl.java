@@ -1,9 +1,9 @@
-package com.javachinna.service.impl;
+package com.javapavan.service.impl;
 
-import com.javachinna.dto.MovieDTO;
-import com.javachinna.dto.OMDBResponse;
-import com.javachinna.model.Movie;
-import com.javachinna.service.OMDBService;
+import com.javapavan.dto.MovieDTO;
+import com.javapavan.dto.OMDBResponse;
+import com.javapavan.model.Movie;
+import com.javapavan.service.OMDBService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

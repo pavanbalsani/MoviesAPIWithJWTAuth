@@ -1,9 +1,9 @@
-package com.javachinna.controller;
+package com.javapavan.controller;
 
-import com.javachinna.dto.*;
-import com.javachinna.exception.UserAlreadyExistAuthenticationException;
-import com.javachinna.model.User;
-import com.javachinna.service.UserService;
+import com.javapavan.dto.*;
+import com.javapavan.exception.UserAlreadyExistAuthenticationException;
+import com.javapavan.model.User;
+import com.javapavan.service.UserService;
 import jakarta.validation.Valid;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -28,7 +28,7 @@ import java.util.stream.Collectors;
 /**
  * REST Controller responsible for user login and registration.
  *
- * @author Chinna
+ * @author Pavan
  */
 @Slf4j
 @RestController

@@ -1,6 +1,6 @@
-package com.javachinna.validator;
+package com.javapavan.validator;
 
-import com.javachinna.dto.SignUpRequest;
+import com.javapavan.dto.SignUpRequest;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 

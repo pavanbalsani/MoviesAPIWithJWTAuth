@@ -1,11 +1,11 @@
-package com.javachinna.config;
+package com.javapavan.config;
 
-import com.javachinna.model.Movie;
-import com.javachinna.model.Role;
-import com.javachinna.model.User;
-import com.javachinna.repo.MovieRepository;
-import com.javachinna.repo.RoleRepository;
-import com.javachinna.repo.UserRepository;
+import com.javapavan.model.Movie;
+import com.javapavan.model.Role;
+import com.javapavan.model.User;
+import com.javapavan.repo.MovieRepository;
+import com.javapavan.repo.RoleRepository;
+import com.javapavan.repo.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.csv.CSVFormat;
@@ -46,9 +46,9 @@ public class SetupDataLoader implements ApplicationListener<ContextRefreshedEven
         var adminRole = createRoleIfNotFound(Role.ROLE_ADMIN);
 
         // Create users
-        createUserIfNotFound("user@javachinna.com", passwordEncoder.encode("user@@"), // "user"
+        createUserIfNotFound("user@javapavan.com", passwordEncoder.encode("user@@"), // "user"
                 userRole, "User");
-        createUserIfNotFound("admin@javachinna.com", passwordEncoder.encode("admin@"), // "admin"
+        createUserIfNotFound("admin@javapavan.com", passwordEncoder.encode("admin@"), // "admin"
                 adminRole, "Administrator");
         insertMoviesFromCSV();
         alreadySetup = true;

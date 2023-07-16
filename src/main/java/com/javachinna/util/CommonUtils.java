@@ -1,6 +1,6 @@
-package com.javachinna.util;
+package com.javapavan.util;
 
-import com.javachinna.model.UserRole;
+import com.javapavan.model.UserRole;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
 import java.util.ArrayList;
@@ -9,7 +9,7 @@ import java.util.Set;
 
 /**
  * 
- * @author Chinna
+ * @author Pavan
  *
  */
 public class CommonUtils {

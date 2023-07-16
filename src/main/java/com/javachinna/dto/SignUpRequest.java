@@ -1,12 +1,12 @@
-package com.javachinna.dto;
+package com.javapavan.dto;
 
-import com.javachinna.validator.PasswordMatches;
+import com.javapavan.validator.PasswordMatches;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
 /**
- * @author Chinna
+ * @author Pavan
  * @since 26/2/22
  */
 @Data

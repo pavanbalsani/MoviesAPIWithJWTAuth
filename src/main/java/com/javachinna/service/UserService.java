@@ -1,13 +1,13 @@
-package com.javachinna.service;
+package com.javapavan.service;
 
-import com.javachinna.dto.SignUpRequest;
-import com.javachinna.exception.UserAlreadyExistAuthenticationException;
-import com.javachinna.model.User;
+import com.javapavan.dto.SignUpRequest;
+import com.javapavan.exception.UserAlreadyExistAuthenticationException;
+import com.javapavan.model.User;
 
 /**
  * Service interface for user operations
  *
- * @author Chinna
+ * @author Pavan
  * @since 06/11/22
  */
 public interface UserService {

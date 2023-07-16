@@ -1,4 +1,4 @@
-package com.javachinna.controller;
+package com.javapavan.controller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +23,7 @@ class AuthControllerTest {
     void whenAuthenticatedThenSaysOk() throws Exception {
         // @formatter:off
         MvcResult result = this.mvc.perform(post("/api/auth/token")
-                        .with(httpBasic("user@javachinna.com", "user@@")))
+                        .with(httpBasic("user@javapavan.com", "user@@")))
                 .andExpect(status().isOk())
                 .andReturn();
 

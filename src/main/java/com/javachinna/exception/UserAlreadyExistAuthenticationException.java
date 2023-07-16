@@ -1,4 +1,4 @@
-package com.javachinna.exception;
+package com.javapavan.exception;
 
 import org.springframework.security.core.AuthenticationException;
 
@@ -6,7 +6,7 @@ import java.io.Serial;
 
 /**
  * 
- * @author Chinna
+ * @author Pavan
  *
  */
 public class UserAlreadyExistAuthenticationException extends AuthenticationException {

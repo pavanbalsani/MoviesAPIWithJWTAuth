@@ -1,4 +1,4 @@
-package com.javachinna.model;
+package com.javapavan.model;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;

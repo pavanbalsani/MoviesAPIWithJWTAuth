@@ -1,6 +1,6 @@
-package com.javachinna.controller;
+package com.javapavan.controller;
 
-import com.javachinna.service.MovieService;
+import com.javapavan.service.MovieService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

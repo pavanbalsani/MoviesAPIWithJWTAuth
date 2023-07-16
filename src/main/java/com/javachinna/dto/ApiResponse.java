@@ -1,9 +1,9 @@
-package com.javachinna.dto;
+package com.javapavan.dto;
 
 /**
  * Common API Response class
  *
- * @author Chinna
+ * @author Pavan
  */
 public record ApiResponse(Boolean success, String message) {
 }

@@ -1,8 +1,8 @@
-package com.javachinna.controller;
+package com.javapavan.controller;
 
-import com.javachinna.dto.ApiResponse;
-import com.javachinna.dto.MovieDTO;
-import com.javachinna.service.MovieService;
+import com.javapavan.dto.ApiResponse;
+import com.javapavan.dto.MovieDTO;
+import com.javapavan.service.MovieService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -13,7 +13,7 @@ import java.util.List;
 /**
  * REST Controller responsible for fetching movie details and storing user ratings.
  *
- * @author Chinna
+ * @author Pavan
  */
 @RestController
 @RequestMapping(path = "/api/movies")
@@ -28,7 +28,7 @@ public class MovieController {
      * @return {@link List} of movies
      */
     @GetMapping
-    public List<MovieDTO> findTop10RatedMovies() {
+public List<MovieDTO> findTop10RatedMovies() {
         return movieService.findTop10RatedMovies();
     }
 

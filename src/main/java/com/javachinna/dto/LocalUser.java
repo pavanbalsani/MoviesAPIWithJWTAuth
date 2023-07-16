@@ -1,4 +1,4 @@
-package com.javachinna.dto;
+package com.javapavan.dto;
 
 import lombok.Getter;
 import org.springframework.security.core.GrantedAuthority;
@@ -9,7 +9,7 @@ import java.util.Collection;
 /**
  * LocalUser class extends User which models core user information retrieved by a UserDetailsService
  *
- * @author Chinna
+ * @author Pavan
  */
 @Getter
 public class LocalUser extends org.springframework.security.core.userdetails.User {

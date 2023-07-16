@@ -1,19 +1,19 @@
-package com.javachinna.service.impl;
+package com.javapavan.service.impl;
 
-import com.javachinna.dto.SignUpRequest;
-import com.javachinna.exception.UserAlreadyExistAuthenticationException;
-import com.javachinna.model.Role;
-import com.javachinna.model.User;
-import com.javachinna.repo.RoleRepository;
-import com.javachinna.repo.UserRepository;
-import com.javachinna.service.UserService;
+import com.javapavan.dto.SignUpRequest;
+import com.javapavan.exception.UserAlreadyExistAuthenticationException;
+import com.javapavan.model.Role;
+import com.javapavan.model.User;
+import com.javapavan.repo.RoleRepository;
+import com.javapavan.repo.UserRepository;
+import com.javapavan.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 /**
- * @author Chinna
+ * @author Pavan
  */
 @Service
 @RequiredArgsConstructor

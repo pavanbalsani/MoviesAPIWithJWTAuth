@@ -1,4 +1,4 @@
-package com.javachinna.dto;
+package com.javapavan.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.javachinna.model.pk;
+package com.javapavan.model.pk;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Embeddable;

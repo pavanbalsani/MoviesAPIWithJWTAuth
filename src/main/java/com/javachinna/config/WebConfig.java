@@ -1,4 +1,4 @@
-package com.javachinna.config;
+package com.javapavan.config;
 
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
@@ -38,7 +38,7 @@ import static org.springframework.security.config.Customizer.withDefaults;
 /**
  * Configuration for the main application.
  *
- * @author Chinna
+ * @author Pavan
  */
 @Configuration
 public class WebConfig {
@@ -78,7 +78,7 @@ public class WebConfig {
         // @formatter:off
         http
                 .authorizeHttpRequests()
-                    .requestMatchers(PUBLIC_PATHS).permitAll()
+                    .requestMatchers( PUBLIC_PATHS).permitAll()
                     .anyRequest().hasAuthority("SCOPE_ROLE_ADMIN").and()
                 .csrf().disable()
                 .httpBasic().disable()

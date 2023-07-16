@@ -1,14 +1,14 @@
-package com.javachinna.service.impl;
+package com.javapavan.service.impl;
 
-import com.javachinna.dto.MovieDTO;
-import com.javachinna.exception.ResourceNotFoundException;
-import com.javachinna.model.Movie;
-import com.javachinna.model.MovieRating;
-import com.javachinna.model.User;
-import com.javachinna.repo.MovieRatingsRepository;
-import com.javachinna.repo.MovieRepository;
-import com.javachinna.service.OMDBService;
-import com.javachinna.service.UserService;
+import com.javapavan.dto.MovieDTO;
+import com.javapavan.exception.ResourceNotFoundException;
+import com.javapavan.model.Movie;
+import com.javapavan.model.MovieRating;
+import com.javapavan.model.User;
+import com.javapavan.repo.MovieRatingsRepository;
+import com.javapavan.repo.MovieRepository;
+import com.javapavan.service.OMDBService;
+import com.javapavan.service.UserService;
 import com.sun.security.auth.UserPrincipal;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

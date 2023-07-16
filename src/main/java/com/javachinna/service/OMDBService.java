@@ -1,12 +1,12 @@
-package com.javachinna.service;
+package com.javapavan.service;
 
-import com.javachinna.dto.MovieDTO;
-import com.javachinna.model.Movie;
+import com.javapavan.dto.MovieDTO;
+import com.javapavan.model.Movie;
 
 /**
  * Service interface that provides OMDB API connection
  *
- * @author Chinna
+ * @author Pavan
  */
 public interface OMDBService {
     /**

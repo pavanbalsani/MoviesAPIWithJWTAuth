@@ -1,6 +1,6 @@
-package com.javachinna.exception.handler;
+package com.javapavan.exception.handler;
 
-import com.javachinna.dto.ApiResponse;
+import com.javapavan.dto.ApiResponse;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

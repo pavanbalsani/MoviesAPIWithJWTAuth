@@ -1,6 +1,6 @@
-package com.javachinna.service;
+package com.javapavan.service;
 
-import com.javachinna.dto.MovieDTO;
+import com.javapavan.dto.MovieDTO;
 
 import java.security.Principal;
 import java.util.List;
@@ -8,7 +8,7 @@ import java.util.List;
 /**
  * Service interface that provides movie related functions
  *
- * @author Chinna
+ * @author Pavan
  */
 public interface MovieService {
     /**

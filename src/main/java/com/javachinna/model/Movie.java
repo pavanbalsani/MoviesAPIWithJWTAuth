@@ -1,4 +1,4 @@
-package com.javachinna.model;
+package com.javapavan.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
@@ -11,7 +11,7 @@ import java.util.List;
 /**
  * Movie entity maps to the "movies" table in the database
  *
- * @author Chinna
+ * @author Pavan
  */
 @Entity
 @Table(name = "movies")

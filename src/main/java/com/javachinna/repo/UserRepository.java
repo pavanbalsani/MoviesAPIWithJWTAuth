@@ -1,13 +1,13 @@
-package com.javachinna.repo;
+package com.javapavan.repo;
 
-import com.javachinna.model.User;
+import com.javapavan.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 /**
  * JPA Repository for user entity
  *
- * @author Chinna
+ * @author Pavan
  */
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

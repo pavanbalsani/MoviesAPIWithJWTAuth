@@ -1,4 +1,4 @@
-package com.javachinna;
+package com.javapavan;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
@@ -9,9 +9,9 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 /**
  * Main Spring Boot Application class
  *
- * @author Chinna
+ * @author Pavan
  */
-@SpringBootApplication(scanBasePackages = "com.javachinna")
+@SpringBootApplication(scanBasePackages = "com.javapavan")
 @EnableJpaRepositories
 @EnableTransactionManagement
 public class MovieServiceApplication extends SpringBootServletInitializer {

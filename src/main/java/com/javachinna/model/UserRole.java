@@ -1,6 +1,6 @@
-package com.javachinna.model;
+package com.javapavan.model;
 
-import com.javachinna.model.pk.UserRolePK;
+import com.javapavan.model.pk.UserRolePK;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

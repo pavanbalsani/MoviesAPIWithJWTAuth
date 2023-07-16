@@ -1,11 +1,11 @@
-package com.javachinna.service.impl;
+package com.javapavan.service.impl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.javachinna.dto.ApiResponse;
-import com.javachinna.dto.MovieDTO;
-import com.javachinna.dto.OMDBResponse;
-import com.javachinna.model.Movie;
+import com.javapavan.dto.ApiResponse;
+import com.javapavan.dto.MovieDTO;
+import com.javapavan.dto.OMDBResponse;
+import com.javapavan.model.Movie;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

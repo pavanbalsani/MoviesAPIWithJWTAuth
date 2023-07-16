@@ -1,4 +1,4 @@
-package com.javachinna.model;
+package com.javapavan.model;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,7 +13,7 @@ import java.io.Serial;
 /**
  * This entity maps to the "ratings" table in the database
  *
- * @author Chinna
+ * @author Pavan
  */
 @Entity
 @Table(name = "ratings")

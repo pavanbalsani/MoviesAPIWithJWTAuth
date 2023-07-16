@@ -1,6 +1,6 @@
-package com.javachinna.repo;
+package com.javapavan.repo;
 
-import com.javachinna.model.Role;
+import com.javapavan.model.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

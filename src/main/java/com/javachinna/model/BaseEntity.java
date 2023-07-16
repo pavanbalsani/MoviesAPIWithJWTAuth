@@ -1,4 +1,4 @@
-package com.javachinna.model;
+package com.javapavan.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -10,7 +10,7 @@ import java.io.Serializable;
 /**
  * Base class for all JPA entities
  *
- * @author Chinna
+ * @author Pavan
  */
 @Getter
 @Setter

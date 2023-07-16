@@ -1,8 +1,8 @@
-package com.javachinna.service;
+package com.javapavan.service;
 
-import com.javachinna.dto.LocalUser;
-import com.javachinna.model.User;
-import com.javachinna.util.CommonUtils;
+import com.javapavan.dto.LocalUser;
+import com.javapavan.model.User;
+import com.javapavan.util.CommonUtils;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
@@ -12,7 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * Implementation for {@link UserDetailsService}
  *
- * @author Chinna
+ * @author Pavan
  */
 @Service
 @RequiredArgsConstructor
